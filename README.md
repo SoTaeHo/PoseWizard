@@ -13,4 +13,5 @@ camera calibration을 진행하여 camera matrix K와 distortion coefficient를 
 
 
 calibration.py : 캘리브레이션의 결과를 출력해주는 파일
+
 main.py : 캘리브레이션의 결과를 토대로 camera pose estimation 및 AR 물체를 그려주는 파일
