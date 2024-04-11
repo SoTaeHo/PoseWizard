@@ -44,7 +44,6 @@ while True:
     if success:
         ret, rvec, tvec = cv.solvePnP(obj_points, img_points, K, dist_coeff)
 
-
         # Draw the pentagon pillar on the image
         bottom_projected, _ = cv.projectPoints(bottom_points, rvec, tvec, K, dist_coeff)
         top_projected, _ = cv.projectPoints(top_points, rvec, tvec, K, dist_coeff)
